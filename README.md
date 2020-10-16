@@ -31,3 +31,20 @@ Garrison gives result for each Tweet text in terms of cluster (topic) with assoc
 
 ## The Pipeline
 ![works](.github/images/garrison_pipeline.jpg)
+*Ohohoh, I'm working, no Meganoid is above the Garrison way*
+
+Garrison **Pipeline** is composed of 3 main elements:
+- *Garrison Tweeter-Catcher*: **Node.js solution with index.js** to run the script and an Auth file that contains credentials to authenticate to Twitter API.
+  The solution takes **2 arguments**: **-u** the **Twitter handle** and **-c** the **max number of tweet to retrieve**. If -u is not used Garrison get the following tweets and not the personal ones.
+- *Garrison Csv Converter*: in order to make a dataset for *Garrison Tidy* we use this one to convert the json output to a standard pre-formatted **csv** file.
+- *Garrison Tidy*: it comes as said in 2 versions: just load in Google colab the **ipynb** and run it passing the test dataset from the steps above.
+
+## Known actual limitations
+
+- In counting: specifies the number of Tweets to try and retrieve, up to a maximum of 200 per distinct request. The value of count is best thought of as a limit to the number of Tweets to return because suspended or deleted content is removed after the count has been applied. We include retweets in the count, even if include_rts is not supplied. It is recommended you always send include_rts=1 when using this API method.
+
+## .env for Node.js example
+![works](.github/images/garrison_env.jpg)
+*Ohohoh, get it done my friends!*
+
+For
