@@ -18,3 +18,6 @@ The focus of this project is to find a way to normalize Twitter home feed by clu
     2. Topic - what topic is the person tweeting about?
     3. Relevance - how much is each topic relevant? We want to get the topics that have the most relevance for each person
 3. Make clusters of people by topic and relevance
+
+## How Garrison Works
+![works](.github/images/garrison_works.jpg)
