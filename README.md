@@ -64,5 +64,7 @@ OAUTH_SECRET = YYYYYYYYYYYYYYYYY
 
 ## To Launch Garrison Tweeter-Catcher and Garrison Csv Converter together
 
-Launch the provided *bash* command: *garrison.sh* -c <count> -u [<user>]
+Launch the provided *bash* command: 
+
+```*garrison.sh* -c <count> -u [<user>]```
 
