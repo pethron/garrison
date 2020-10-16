@@ -1,19 +1,11 @@
-const Twitter = require('twitter');
-const axios = require('axios')
 
 require('dotenv').config()
 
 const consumer_key = process.env.CONSUMER_KEY
 const consumer_secret = process.env.CONSUMER_SECRET
-const bearer_token = process.env.BEARER_TOKEN
-/**
- * SUPER PIN
- * 1996256
- */
+
 
 var OAuth = require('oauth').OAuth;
-var Step = require('step');
-var colors = require('colors');
 
 var REQUEST_TOKEN_URL = 'https://api.twitter.com/oauth/request_token';
 var ACCESS_TOKEN_URL = 'https://api.twitter.com/oauth/access_token';

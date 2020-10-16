@@ -1,0 +1,5 @@
+node_modules/
+vs_code/
+.github/
+yarn.lock
+*.env

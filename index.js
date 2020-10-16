@@ -6,7 +6,6 @@ require('dotenv').config()
 const tweets_threshold = 200
 const consumer_key = process.env.CONSUMER_KEY
 const consumer_secret = process.env.CONSUMER_SECRET
-const bearer_token = process.env.BEARER_TOKEN
 const oauth_access = process.env.OAUTH_ACCESS
 const oauth_secret = process.env.OAUTH_SECRET
 
