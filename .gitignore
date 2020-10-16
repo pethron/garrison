@@ -1,5 +1,7 @@
 node_modules/
-vs_code/
 .github/
 yarn.lock
 *.env
+.vscode/*
+tweets.json
+*.csv
