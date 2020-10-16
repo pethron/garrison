@@ -21,6 +21,7 @@ The focus of this project is to find a way to normalize Twitter home feed by clu
 
 ## How Garrison Works
 ![works](.github/images/garrison_works.jpg)
+
 *Ohohoh, times to clean things up Ladies!*
 
 Garrison comes in two test flavours as we are striving to find the best working solution: 
@@ -31,6 +32,7 @@ Garrison gives result for each Tweet text in terms of cluster (topic) with assoc
 
 ## The Pipeline
 ![works](.github/images/garrison_pipeline.jpg)
+
 *Ohohoh, I'm working, no Meganoid is above the Garrison way*
 
 Garrison **Pipeline** is composed of 3 main elements:
@@ -45,6 +47,22 @@ Garrison **Pipeline** is composed of 3 main elements:
 
 ## .env for Node.js example
 ![works](.github/images/garrison_env.jpg)
+
 *Ohohoh, get it done my friends!*
 
-For
+For Node.js to work you'll need a .env file with your Twitter api credentials
+
+```
+CONSUMER_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXX
+CONSUMER_SECRET = XXXXXXXXXXXXXXXXXXXXXXXXXx
+BEARER_TOKEN = XXXXXXXXXXXXXXXXXXXXXXXXXx
+OAUTH_ACCESS =  YYYYYYYYYYYYYY
+OAUTH_SECRET = YYYYYYYYYYYYYYYYY
+```
+- Those with X are already provided by your Twitter developer portal.
+- Those with Y can be retrieved by running *auth.js* and following the provided instructions.
+
+## To Launch Garrison Tweeter-Catcher and Garrison Csv Converter together
+
+Launch the provided *bash* command: *garrison.sh*
+
