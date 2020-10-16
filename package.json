@@ -9,6 +9,7 @@
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
     "oauth": "^0.9.15",
-    "twitter": "^1.7.1"
+    "twitter": "^1.7.1",
+    "yargs": "^16.1.0"
   }
 }
