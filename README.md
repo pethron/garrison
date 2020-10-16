@@ -21,3 +21,13 @@ The focus of this project is to find a way to normalize Twitter home feed by clu
 
 ## How Garrison Works
 ![works](.github/images/garrison_works.jpg)
+*Ohohoh, times to clean things up Ladies!*
+
+Garrison comes in two test flavours as we are striving to find the best working solution: 
+- TF-IDF matrix and k-means clustering in version 1
+- LDA + Embeddings in version 2
+
+Garrison gives result for each Tweet text in terms of cluster (topic) with associated Bag-of-words, each one with a % of occurence, associating the **User**
+
+## The Pipeline
+![works](.github/images/garrison_pipeline.jpg)
